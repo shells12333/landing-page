@@ -1,0 +1,26 @@
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+    margin: 0px;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-logo {
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+}
