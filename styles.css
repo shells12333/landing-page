@@ -127,3 +127,68 @@ button {
     flex-direction: column;
     gap: 15px;
 }
+
+/*  */
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    width: 800px;
+    color: #1F2937;
+}
+
+.author {
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 550px;
+}
+
+.third-fourth {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 148px;
+    padding-bottom: 148px;
+}
+
+/*  */
+
+.call-to-action {
+    background-color: #3882F6;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+    height: 150px;
+}
+
+.action-header, .action-subtext {
+    color: white;
+}
+
+.action-header {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.action-subtext {
+    font-size: 18px;
+}
+
+.fourth-fourth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.action-button {
+    outline: 3px solid white;
+    height: 38px;
+    font-weight: 900;
+    font-size: 18px;
+    width: 130px;
+}
