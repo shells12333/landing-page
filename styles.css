@@ -4,6 +4,10 @@ html, body {
     height: 100%;              
 }
 
+.header-links {
+    margin-top: 20px;
+}
+
 ul {
     list-style-type: none;
     display: flex;
@@ -25,15 +29,11 @@ a {
     margin-top: 12px;
     display: flex;
     justify-content: center;
-    gap: 360px;
+    gap: 700px;
     margin-bottom: 60px;
 }
 
-.header-logo {
-    font-size: 24px;
-    font-weight: 900;
-    color: white;
-}
+
 /*  */
 .upper-middle {
     display: flex;
@@ -55,6 +55,7 @@ a {
     max-width: 480px;
     color: white;
     margin-bottom: 148px;
+    gap: 10px;
 }
 
 .header-text, .card-text {
@@ -106,6 +107,9 @@ button {
     height: 200px;
     width: 200px;
     border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card-text {
