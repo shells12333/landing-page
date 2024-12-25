@@ -57,7 +57,7 @@ a {
     margin-bottom: 148px;
 }
 
-.header-text {
+.header-text, .card-text {
     font-size: 18px;
     margin: 0px;
     margin-bottom: 10px;
@@ -93,4 +93,37 @@ button {
 
 .information-header {
     font-size: 36px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.blue-box {
+    outline: 5px solid #3882F6;
+    height: 200px;
+    width: 200px;
+    border-radius: 12px;
+}
+
+.card-text {
+    font-weight: bold;
+    color: rgb(107, 107, 107);
+    width: 200px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    margin-bottom: 148px;
+}
+
+.card-image {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
