@@ -1,3 +1,9 @@
+html, body {
+    margin: 0;                 
+    padding: 0;               
+    height: 100%;              
+}
+
 ul {
     list-style-type: none;
     display: flex;
@@ -12,15 +18,79 @@ body {
 a {
     text-decoration: none;
     color: lightgray;
+    font-size: 18px;
 }
 
 .header {
+    margin-top: 12px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 360px;
+    margin-bottom: 60px;
 }
 
 .header-logo {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 900;
     color: white;
+}
+/*  */
+.upper-middle {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 27px;
+}
+
+.header-title {
+    font-size: 48px;
+    font-weight: 900;
+    max-width: 300px;
+    margin: 0px;
+}
+
+.header-body {
+    display: flex;
+    flex-direction: column;
+    max-width: 480px;
+    color: white;
+    margin-bottom: 148px;
+}
+
+.header-text {
+    font-size: 18px;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.img-placeholder {
+    display: flex;
+    background-color: rgb(166, 166, 172);
+    width: 510px;
+    height: 250px;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;
+    color: white;
+}
+
+button {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 8px;
+    width: 110px;
+    height: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+.first-fourth {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+}
+
+/*  */
+
+.information-header {
+    font-size: 36px;
 }
